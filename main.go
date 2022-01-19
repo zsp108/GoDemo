@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "GoDemo/src"
 
 func main() {
-	fmt.Println("hello world")
+	src.Day1Start()
 }
