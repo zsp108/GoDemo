@@ -41,8 +41,9 @@ func myvar() {
 	//var 关键字声明变量，带有初始值
 	var i, j int = 1, 2
 	// var 不带变量
-	var c, python, java = true, false, "no!"
-	fmt.Println(i, j, c, python, java)
+	//var c, python, java = true, false, "no!"
+	//fmt.Println(i, j, c, python, java)
+	fmt.Println(i, j)
 
 	//短变量声明
 	x, y := 3, 4
@@ -126,6 +127,7 @@ func mynumeric() {
 
 //当前学习启动入口
 func Day1Start() {
+	// 第一天学习的基础调用
 	fmt.Println("hello world")
 	pakg()
 	fmt.Println(myadd(1, 2))
@@ -137,4 +139,5 @@ func Day1Start() {
 	mytype_inferenc()
 	myconstants()
 	mynumeric()
+
 }
