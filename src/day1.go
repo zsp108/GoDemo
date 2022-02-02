@@ -128,6 +128,7 @@ func mynumeric() {
 //当前学习启动入口
 func Day1Start() {
 	// 第一天学习的基础调用
+	fmt.Println("第一天学习包、变量和函数等基础调用")
 	fmt.Println("hello world")
 	pakg()
 	fmt.Println(myadd(1, 2))

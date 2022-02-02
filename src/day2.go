@@ -105,6 +105,7 @@ func mydefer() {
 
 //第二天学习启动入口，今天学习流程控制
 func Day2Start() {
+	fmt.Println("第二天学习for、if、else、Switch和defer")
 	myfor()
 	myif()
 	myswitch()
