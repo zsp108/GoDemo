@@ -76,11 +76,24 @@ func myarray() {
 // 切片通过两个下标来界定，即一个上界和一个下界，二者以冒号分隔：a[low : high]它会选择一个半开区间，包括第一个元素，但排除最后一个元素。
 // 以下表达式创建了一个切片，它包含 a 中下标从 1 到 3 的元素a[1:4]
 func myslices() {
+	//简单切片
+	primes := [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+	j := primes[0:4]
+	fmt.Println(j)
+	//切片不存储数据，它只是描述底层数组中的一段，更改切片元素会修改底层数组
+	// 切片默认下界为0，上界为数组长度
+	j[0] = 12
+	fmt.Println(j)
+	fmt.Println(primes)
+	//数组和切片的长度可以用len来求出，容量可以用cap函数来求出
+	fmt.Println(len(j))
+	fmt.Println(cap(j))
 
 }
 
 func Day3Start() {
-	fmt.Println("第三天学习指针，struct，slice和映射")
+	fmt.Println("第三天学习更多类型：指针，struct，slice和映射")
 	mypointers() // 指针学习调用
 	mystruct()   // 结构体学习调用
 	myarray()    // 数组学习调用
