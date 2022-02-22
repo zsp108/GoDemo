@@ -13,4 +13,10 @@ func Day4Start() {
 	mymethod_pointers_explained()
 	fmt.Println("=====接口=====")
 	Interfacemain()
+	fmt.Println("接口nil值")
+	Ivwnstart()
+	fmt.Println("类型断言")
+	Tastart()
+	fmt.Println("类型断言选择")
+	Tsmain()
 }
