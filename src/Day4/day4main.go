@@ -19,4 +19,6 @@ func Day4Start() {
 	Tastart()
 	fmt.Println("类型断言选择")
 	Tsmain()
+	fmt.Println("Stringer 接口")
+	SMain()
 }
