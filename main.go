@@ -1,8 +1,6 @@
 package main
 
-import (
-	"GoDemo/src/Day4"
-)
+import "GoDemo/src/Day4"
 
 func main() {
 	//src.Day1Start()
@@ -10,4 +8,5 @@ func main() {
 	//src.Day3Start()
 	Day4.Day4Start()
 	//Day5.Day5Start()
+	//src.Tmain()
 }
