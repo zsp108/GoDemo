@@ -7,6 +7,7 @@ func main() {
 	//src.Day2Start()
 	//src.Day3Start()
 	//Day4.Day4Start()
-	Day5.Day5Start()
+	//Day5.Day5Start()
 	//src.Tmain()
+	Day5.MyTreeStart()
 }
