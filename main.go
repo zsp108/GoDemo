@@ -9,5 +9,6 @@ func main() {
 	//Day4.Day4Start()
 	//Day5.Day5Start()
 	//src.Tmain()
-	Day5.MyTreeStart()
+	//Day5.MyTreeStart()
+	Day5.McStart()
 }
