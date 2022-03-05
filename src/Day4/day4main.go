@@ -19,4 +19,10 @@ func Day4Start() {
 	Tastart()
 	fmt.Println("类型断言选择")
 	Tsmain()
+	fmt.Println("Stringer 接口")
+	SMain()
+	fmt.Println("Error 接口")
+	Emain()
+	fmt.Println("Reader 接口")
+	Rmain()
 }
